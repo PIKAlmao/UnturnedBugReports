@@ -40,19 +40,11 @@ body:
     validations:
       required: true
   - type: input
-    id: texture
-    attributes:
-      label: Any Texture Packs? (If so list)
-      description: Any texture packs you may be using (e.g NVE)
-      placeholder: NVE
-    validations:
-      required: false
-  - type: input
     id: permid
     attributes:
-      label: CMG User ID
-      description: Your CMG account user ID (/getmyid)
-      placeholder: "13"
+      label: Steam64 id / url
+      description: Your steam account 64id or url
+      placeholder: "76561199049429927"
     validations:
       required: true
       
